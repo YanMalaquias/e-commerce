@@ -1,0 +1,67 @@
+.filter-group {
+  border: 1px solid var(--light-gray-2);
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: var(--white);
+  display: flex; 
+  flex-direction: column;
+}
+
+.filter-group__title { /* Classe mais descritiva */
+  font-size: 1rem; /* Unidade relativa */
+  color: var(--dark-gray-2);
+  margin-bottom: 10px;
+}
+  
+  .filter-group h4 {
+    font-size: 16px;
+    color: var(--dark-gray-2);
+    margin-bottom: 10px;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-option input {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    accent-color: var(--primary);
+  }
+
+  .filter-group__checkbox { 
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    accent-color: var(--primary);
+  }
+
+  /* Estilos para estados do input */
+.filter-group__checkbox:hover {
+  /* ... */
+}
+
+.filter-group__checkbox:focus {
+  /* ... */
+}
+
+.filter-group__checkbox:checked {
+  /* ... */
+}
+  
+  /* Media Queries para responsividade */
+
+@media (max-width: 768px) { 
+  .filter-group__options {
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  }
+}

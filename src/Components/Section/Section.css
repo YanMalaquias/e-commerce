@@ -1,0 +1,29 @@
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--white);
+    border: 1px solid var(--light-gray-2);
+    border-radius: 4px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+  }
+  
+  .section-link {
+    font-size: 18px;
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .section-link:hover {
+    text-decoration: underline;
+  }
+  
