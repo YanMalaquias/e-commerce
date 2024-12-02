@@ -28,7 +28,7 @@ const slides = [
     description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',   
 
   },
-  // Adicione mais slides aqui, com diferentes textos e imagens
+  
 ];
 
 export default function Carrossel() {
